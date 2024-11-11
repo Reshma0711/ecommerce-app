@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Products from "./components/Products";
-import Cart from "./components/Cart"; // Assuming you have a Cart component
+import Cart from "./components/cart"; // Assuming you have a Cart component
 import About from "./components/About"; // Assuming you have an About component
 import "bootstrap/dist/css/bootstrap.min.css";
 
