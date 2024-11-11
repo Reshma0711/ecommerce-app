@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React from "react";
-import { Navbar, Nav, Container, Badge } from "react-bootstrap";
+import { Nav,Navbar, Container, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom"; // Use Link directly from react-router-dom
 
 const Navigation = ({ cartCount }) => {

@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar";
 import Products from "./components/Products";
 import Cart from "./components/Cart"; // Assuming you have a Cart component
 import About from "./components/About"; // Assuming you have an About component
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
 
 function App() {
   const [cart, setCart] = useState([]);
